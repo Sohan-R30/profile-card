@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    background: linear-gradient(90deg,#6533f6,#bd00cc);
+}
+.card .icon{
+    margin-top: -60px;
+    width: 150px;
+    border: 5px solid;
+    clip-path: circle(40%);
+}
+.card-description{
+    color: #424042;
+}
+.card, body{
+    background: #dddcdd;
+}
+.card{
+    border: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3),
+                -4px -4px 6px rgba(0, 0, 0, 0.3);
+}
+.footer i{
+    color: #2e9084;
+}
